@@ -11,5 +11,11 @@ public class puissanceTest {
         assertEquals(216, Nombre.puissance(6,3));
     }
 
+    @Test
+    void exposantZero () {
+        assertEquals(1, Nombre.puissance(485225,0));
+    }
+
+
 }
 
