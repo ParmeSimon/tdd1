@@ -14,7 +14,12 @@ public class carreTest {
 
     @Test
     void carreValeurNegative () {
-        assertTrue(Nombre.carre(-6)>0);
+        assertTrue((Nombre.carre(-6)>0));
+    }
+
+    @Test
+    void carreGrandNombre () {
+        assertTrue(Nombre.carre(46341)> Integer.MAX_VALUE);
     }
 
 }

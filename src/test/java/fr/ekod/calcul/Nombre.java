@@ -3,8 +3,10 @@ package fr.ekod.calcul;
 public class Nombre {
 
 
-    public static int carre(int valeur){
+    public static long carre(long valeur){
         return valeur*valeur;
     }
+
+
 
 }
