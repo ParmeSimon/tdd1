@@ -9,8 +9,7 @@ public class carreTest {
     @Test
     void carreEgaleZero () {
         assertEquals(0, Nombre.carre(0));
+
     }
-
-
 
 }
